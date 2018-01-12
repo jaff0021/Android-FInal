@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Doors Open Final</string>
+
+    <string name="post_data">New Building...</string>
+
+    <string name="item_not_found">Item Not Found</string>
+    <string name="building_name">Building Name</string>
+    <string name="name_hint">Name</string>
+    <string name="building_address">Building Address</string>
+    <string name="address_hint">Address</string>
+    <string name="show_all_buildings">Show All Buildings</string>
+    <string name="choose_a_category">Choose a Category</string>
+    <string name="author_name">Zaheed Jaffer</string>
+    <string name="author_number">jaff0021</string>
+    <string name="action_about">About</string>
+    <string name="author" translatable="false">Zaheed Jaffer (jaff0021)</string>
+
+    <string-array name="categories">
+        <item>Religious</item>
+        <item>Embassies</item>
+        <item>Government</item>
+        <item>Functional</item>
+        <item>Galleries and Theatres</item>
+        <item>Academic Institutions</item>
+        <item>Sports and Leisure</item>
+        <item>Community and/or Care Centres</item>
+        <item>Business and/or Foundations</item>
+        <item>Museums, Archives and Historic Sites</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

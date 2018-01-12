@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_post_data"
+        android:title="@string/post_data"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/action_all_items"
+        android:title="@string/show_all_buildings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_choose_category"
+        android:title="@string/choose_a_category"
+        app:showAsAction="never"/>
+
+    <group android:id="@+id/sort_options" android:checkableBehavior="single">
+        <item android:id="@+id/action_sort_name_asc"
+            android:title="Sort by Name (a-z)"
+            android:checked="false" />
+        <item android:id="@+id/action_sort_name_dsc"
+            android:title="Sort by Name (z-a)"
+            android:checked="false" />
+    </group>
+</menu>
